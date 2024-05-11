@@ -1,7 +1,10 @@
 import React from "react";
 
+// css
+import "./Body.css";
+
 const Body = () => {
-  return <div>Body</div>;
+  return <div className="body-dev"></div>;
 };
 
 export default Body;
