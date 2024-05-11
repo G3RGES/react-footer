@@ -1,5 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
+
+//components
 import Body from "./Components/body/Body";
 import Footer from "./Components/footer/Footer";
 
