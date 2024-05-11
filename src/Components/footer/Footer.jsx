@@ -26,7 +26,58 @@ const Footer = () => {
               <p>Individuals</p>
             </a>
           </div>
+          <div className="sb-footer-links-div">
+            <h4>Resources</h4>
+            <a href="/resourcecenter">
+              <p>Resource Center</p>
+            </a>
+            <a href="/testimonials">
+              <p>Testimonials</p>
+            </a>
+            <a href="/stv">
+              <p>STV</p>
+            </a>
+          </div>
+          <div className="sb-footer-links-div">
+            <h4>Partners</h4>
+            <a href="/employer">
+              <p>G3RGES</p>
+            </a>
+          </div>
+          <div className="sb-footer-links-div">
+            <h4>Company</h4>
+            <a href="/about">
+              <p>About</p>
+            </a>
+            <a href="/press">
+              <p>Press</p>
+            </a>
+            <a href="/career">
+              <p>career</p>
+            </a>
+            <a href="/contact">
+              <p>Contact</p>
+            </a>
+          </div>
+          <div className="sb-footer-links-div">
+            <h4>Coming soon on</h4>
+            <div className="socialmedia">
+              <p>
+                <img src={fb} alt="" />
+              </p>
+              <p>
+                <img src={twitter} alt="" />
+              </p>
+              <p>
+                <img src={LinkedIn} alt="" />
+              </p>
+              <p>
+                <img src={inst} alt="" />
+              </p>
+            </div>
+          </div>
         </div>
+        <hr />
       </div>
     </div>
   );
