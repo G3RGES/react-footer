@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
           <div className="sb-footer-links-div">
             <h4>Partners</h4>
-            <a href="/employer">
+            <a href="/partner">
               <p>G3RGES</p>
             </a>
           </div>
@@ -78,6 +78,33 @@ const Footer = () => {
           </div>
         </div>
         <hr />
+        <div className="sb-footer-below">
+          <div className="sb-footer-copyright">
+            <p>@{new Date().getFullYear()} G3RGES All right reserved</p>
+          </div>
+          <div className="sb-footer-below-links">
+            <a href="/term">
+              <div>
+                <p>Term & Conditions</p>
+              </div>
+            </a>
+            <a href="/privacy">
+              <div>
+                <p>Privacy</p>
+              </div>
+            </a>
+            <a href="/security">
+              <div>
+                <p>Security</p>
+              </div>
+            </a>
+            <a href="/cookie">
+              <div>
+                <p>Cookie Declaration</p>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
